@@ -1,0 +1,17 @@
+Test python
+PYTHON_PATH -c "print('Hello, World!')"
+
+Cartpole example with RL enabled
+PYTHON_PATH scripts/rlgames_train.py task=Cartpole
+
+Cartpole example with RL disabled
+PYTHON_PATH scripts/random_policy.py task=Cartpole
+
+Disable render
+headless=True
+
+pretty self explanatory
+num_envs=1
+
+
+PYTHON_PATH scripts/random_policy.py task=Kaivuri num_envs=1 headless=True
